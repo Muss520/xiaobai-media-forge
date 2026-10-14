@@ -6,14 +6,14 @@
 
 ## 下载与启动
 
-前往 [Releases 下载页](https://github.com/Muss520/xiaobai-media-forge/releases/latest)，下载 `小白媒体工坊-Windows-x64.zip`，解压后双击 `MediaForge/小白媒体工坊.exe`。
+前往 [Releases 下载页](https://github.com/Muss520/xiaobai-media-forge/releases/latest)，下载 `Xiaobai-Media-Forge-Windows-x64.zip`，解压后双击 `MediaForge/小白媒体工坊.exe`。包内部分说明沿用中文压缩包名，与下载页提供的是同一软件。
 
 请保留完整 MediaForge 文件夹，不能只复制 EXE。免安装版内置所需引擎，日常使用不需要安装 Python 或 FFmpeg，也不需要联网。
 
 下载页附带 `.sha256` 文件，可用 PowerShell 检查 ZIP 的 SHA256：
 
 ```powershell
-Get-FileHash -LiteralPath '.\小白媒体工坊-Windows-x64.zip' -Algorithm SHA256
+Get-FileHash -LiteralPath '.\Xiaobai-Media-Forge-Windows-x64.zip' -Algorithm SHA256
 ```
 
 关闭主窗口后，任务继续在后台运行。右键小白或托盘，选择“彻底退出”结束软件。
