@@ -1,0 +1,43 @@
+{
+  "codes": [
+    {
+      "original": "微信.jpg",
+      "asset": "wechat.png",
+      "box": [
+        360,
+        400,
+        900,
+        940
+      ],
+      "padding": 60,
+      "size": [
+        660,
+        660
+      ],
+      "source_sha256": "1c1dff6773af7173f61938a4536975692a5227e36ccd56b30ae5f5c0f7a79a04",
+      "asset_sha256": "d7f0f7ef3609c0a764e539f40b58ba6bd3573c3c2be8ded8458f9b9a56512bbd",
+      "payload_sha256": "8a34f0b6f4ffe702443620b08cbeb96f5521a44cda4cc05733c8fb637682bce1",
+      "decoded_equal": true
+    },
+    {
+      "original": "支付宝.jpg",
+      "asset": "alipay.png",
+      "box": [
+        228,
+        690,
+        1030,
+        1492
+      ],
+      "padding": 80,
+      "size": [
+        962,
+        962
+      ],
+      "source_sha256": "372f661c4ed22ff03d81ceef0b8194fba02e0915c8d81331d1521d21ff1e1a3c",
+      "asset_sha256": "6c96871301930e87c35959fe6999e07a1cdde3f70fd8189bb2ffecb2cc01eaaa",
+      "payload_sha256": "631b2d2115ebc1c27b153c5fe668381c9e14803fcfe18efe73113982a9dcf00d",
+      "decoded_equal": true
+    }
+  ],
+  "method": "original pixel crop plus white canvas; no resize or redraw"
+}

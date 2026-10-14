@@ -1,0 +1,35 @@
+MediaForge 媒体工坊 1.0.0
+本项目原创源码采用 GNU GPL version 3 or later；完整许可见 LICENSE.txt。
+
+Python 3.12：PSF License；许可见 Python-LICENSE.txt。
+Python 来源：本机 Codex 运行环境的 Python 3.12，复制标准运行时到项目 runtime。
+https://www.python.org/downloads/
+
+PySide6 / Qt 6.12.0 / Shiboken6：LGPL-3.0 / GPL 可选许可。
+https://doc.qt.io/qtforpython-6/licenses.html
+本程序使用 QtWidgets / QtCore / QtGui，动态 DLL 位于成品 _internal/PySide6。
+可按照 LGPL 条款替换兼容动态库；本项目不禁止为调试替换库而进行的逆向工程。
+对应源代码：https://code.qt.io/cgit/pyside/pyside-setup.git/ 与 https://code.qt.io/cgit/qt/
+许可原文见 GPL-3.0.txt、LGPL-3.0.txt 及相关 dist-info 子目录。
+
+Pillow 12.3.0：MIT-CMU；版权及许可见 pillow dist-info 子目录。
+https://github.com/python-pillow/Pillow
+
+FFmpeg / ffprobe 9.0.2 Gyan Essentials：GPL v3 构建，包含 libx264 / libx265 / libvpx 等。
+版权：(c) 2000–2026 FFmpeg developers。
+构建来源：https://www.gyan.dev/ffmpeg/builds/
+官方来源：https://ffmpeg.org/download.html
+对应源代码：https://ffmpeg.org/releases/ 与构建提供者的版本说明。
+完整许可证见 GPL-3.0.txt，版本、归档校验值及下载 URL 见 ffmpeg-manifest.json。
+视频引擎作为独立进程使用，没有向 Qt 程序静态链接 FFmpeg。
+
+PyInstaller 6.22.3：GPL with special bootloader exception。
+https://pyinstaller.org/
+源码成品包含可重建脚本、固定依赖版本和应用源码。
+其他开发依赖及完整元数据保存在本目录中，各自遵循其组件许可。
+
+软件不连接外部服务，不发送文件或处理日志。首次开发环境准备需要下载依赖。
+
+Noto Sans CJK SC：SIL Open Font License 1.1；见 Noto-OFL.txt。
+https://github.com/notofonts/noto-cjk
+内置开放字体确保离线中文显示一致；未打包任何 Windows 专有字体。

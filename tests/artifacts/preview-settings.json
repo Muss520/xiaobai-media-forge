@@ -1,0 +1,87 @@
+{
+  "version": 3,
+  "ui": {
+    "reduce_motion": false,
+    "presets": {
+      "video": "balanced",
+      "image": "balanced",
+      "live": "balanced"
+    }
+  },
+  "output": "output",
+  "video": {
+    "format": "mp4",
+    "codec": "h264",
+    "encoder": "cpu",
+    "mode": "quality",
+    "quality": 23,
+    "bitrate": 2500,
+    "speed": "medium",
+    "width": 0,
+    "height": 0,
+    "aspect": true,
+    "fps": 0.0,
+    "audio_codec": "aac",
+    "audio_bitrate": 128,
+    "sample_rate": 0,
+    "channels": 0,
+    "remux": false,
+    "target_bytes": 0
+  },
+  "image": {
+    "format": "jpg",
+    "quality": 85,
+    "png_level": 6,
+    "lossless": false,
+    "width": 640,
+    "height": 480,
+    "aspect": true,
+    "upscale": false,
+    "metadata": false,
+    "background": "#ffffff",
+    "target_bytes": 0,
+    "auto_resize": false,
+    "animation": "preserve",
+    "frame_index": 0
+  },
+  "live": {
+    "mode": "preserve",
+    "format": "livp",
+    "image": {
+      "format": "jpg",
+      "quality": 85,
+      "png_level": 6,
+      "lossless": false,
+      "width": 0,
+      "height": 0,
+      "aspect": true,
+      "upscale": false,
+      "metadata": false,
+      "background": "#ffffff",
+      "target_bytes": 0,
+      "auto_resize": false,
+      "animation": "preserve",
+      "frame_index": 0
+    },
+    "video": {
+      "format": "mp4",
+      "codec": "h264",
+      "encoder": "cpu",
+      "mode": "quality",
+      "quality": 23,
+      "bitrate": 2500,
+      "speed": "medium",
+      "width": 0,
+      "height": 0,
+      "aspect": true,
+      "fps": 0.0,
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "sample_rate": 0,
+      "channels": 0,
+      "remux": false,
+      "target_bytes": 0
+    },
+    "target_bytes": 0
+  }
+}

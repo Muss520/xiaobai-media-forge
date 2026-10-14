@@ -1,0 +1,131 @@
+{
+  "version": 5,
+  "desktop": {
+    "scale": 3,
+    "visible": true,
+    "show_progress": true,
+    "sounds": true,
+    "notifications": true,
+    "quick": {
+      "video": {
+        "preset": "balanced",
+        "format": "mp4"
+      },
+      "image": {
+        "preset": "balanced",
+        "format": "jpg"
+      },
+      "live": {
+        "preset": "balanced",
+        "mode": "both",
+        "format": "png"
+      }
+    },
+    "sound_volume": 20,
+    "open_results": false,
+    "folder_prefix": "转换结果"
+  },
+  "sibling_output": false,
+  "ui": {
+    "density": "comfortable",
+    "text_size": "standard",
+    "navigation": "standard",
+    "splitters": {},
+    "font_points": 12,
+    "spacing": 12,
+    "navigation_width": 150,
+    "detailed_columns": false,
+    "reduce_motion": false,
+    "presets": {
+      "video": "balanced",
+      "image": "balanced",
+      "live": "balanced"
+    }
+  },
+  "output": "output",
+  "video": {
+    "format": "mp4",
+    "codec": "h264",
+    "encoder": "cpu",
+    "mode": "quality",
+    "quality": 23,
+    "bitrate": 2500,
+    "speed": "medium",
+    "width": 0,
+    "height": 0,
+    "aspect": true,
+    "fps": 0.0,
+    "audio_codec": "aac",
+    "audio_bitrate": 128,
+    "sample_rate": 0,
+    "channels": 0,
+    "remux": false,
+    "target_bytes": 0,
+    "pixel_format": "yuv420p",
+    "profile": "auto",
+    "keyframe_interval": 0,
+    "metadata": false
+  },
+  "image": {
+    "format": "jpg",
+    "quality": 85,
+    "png_level": 6,
+    "lossless": false,
+    "width": 0,
+    "height": 0,
+    "aspect": true,
+    "upscale": false,
+    "metadata": false,
+    "background": "#ffffff",
+    "target_bytes": 0,
+    "auto_resize": false,
+    "animation": "preserve",
+    "frame_index": 0
+  },
+  "live": {
+    "mode": "preserve",
+    "format": "livp",
+    "image": {
+      "format": "jpg",
+      "quality": 85,
+      "png_level": 6,
+      "lossless": false,
+      "width": 0,
+      "height": 0,
+      "aspect": true,
+      "upscale": false,
+      "metadata": false,
+      "background": "#ffffff",
+      "target_bytes": 0,
+      "auto_resize": false,
+      "animation": "preserve",
+      "frame_index": 0
+    },
+    "video": {
+      "format": "mp4",
+      "codec": "h264",
+      "encoder": "cpu",
+      "mode": "quality",
+      "quality": 23,
+      "bitrate": 2500,
+      "speed": "medium",
+      "width": 0,
+      "height": 0,
+      "aspect": true,
+      "fps": 0.0,
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "sample_rate": 0,
+      "channels": 0,
+      "remux": false,
+      "target_bytes": 0,
+      "pixel_format": "yuv420p",
+      "profile": "auto",
+      "keyframe_interval": 0,
+      "metadata": false
+    },
+    "target_bytes": 0,
+    "animation_fps": 0.0,
+    "video_copy": true
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "original_procedural_synthesis": true,
+  "sample_rate": 22050,
+  "channels": 1,
+  "bits": 16,
+  "cues": [
+    {
+      "name": "pet_touch",
+      "group": "pet",
+      "seconds": 0.16,
+      "sha256": "8f2177dd9f54ac3bf91e38a14fb5a8fae0b42c3b24346bd796958b15239ee9c0"
+    },
+    {
+      "name": "rub",
+      "group": "pet",
+      "seconds": 0.28,
+      "sha256": "57e4a53bdb0febc43adfdaee0534e26b07350f60b73715f5f3499db793b580bf"
+    },
+    {
+      "name": "snack",
+      "group": "pet",
+      "seconds": 0.4,
+      "sha256": "da0ced0301edf0d46dbe380f16cd86c3648ad4f3b0c35234f81cb077a6a9e6d7"
+    },
+    {
+      "name": "meow",
+      "group": "pet",
+      "seconds": 0.62,
+      "sha256": "e7fd8553c964c4b2d304aaff0e31ceed8fd274c501fdcec1477d45c52a20cf11"
+    },
+    {
+      "name": "purr",
+      "group": "pet",
+      "seconds": 1.1,
+      "sha256": "78296297a40fa1423685ce390f3287e8aa313ee8ef7d1df7720034813c905a01"
+    },
+    {
+      "name": "joy",
+      "group": "pet",
+      "seconds": 0.28,
+      "sha256": "8b2342a1aca1aeb3b021f7d2f1480b29fe558b22c1a5cb21f2c53627df133af9"
+    },
+    {
+      "name": "wand",
+      "group": "game",
+      "seconds": 0.1,
+      "sha256": "083670666c93dda47c3a57688e43d81981267490fe6351a285133a4963cf7408"
+    },
+    {
+      "name": "throw",
+      "group": "game",
+      "seconds": 0.2,
+      "sha256": "24b27379a95a14ca0679f41756aab68593f539f6c2b48ad2d69335479a73b031"
+    },
+    {
+      "name": "bounce",
+      "group": "game",
+      "seconds": 0.16,
+      "sha256": "5bffb638241f85797f276b63ab65c7f73c2e594bd77317bd1edf983516f640e5"
+    },
+    {
+      "name": "catch",
+      "group": "game",
+      "seconds": 0.26,
+      "sha256": "c49bd42b52a644870199909a48f41cdf4d979411bb015d91928d295efab5e6b8"
+    },
+    {
+      "name": "miss",
+      "group": "game",
+      "seconds": 0.17,
+      "sha256": "2e7de9c336f670b075c67612f4d59fc72dfb98ba682eeb50d28ba31afb3b9594"
+    },
+    {
+      "name": "game_finish",
+      "group": "game",
+      "seconds": 0.45,
+      "sha256": "2008e1b0f5b8020b1c9dda19028c7f36119c8065a0d99e7e03eb84399d67e1ff"
+    }
+  ]
+}

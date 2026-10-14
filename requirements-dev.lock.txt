@@ -1,0 +1,2 @@
+# Development-only QR verification; never imported by the application.
+zxing-cpp==3.1.1

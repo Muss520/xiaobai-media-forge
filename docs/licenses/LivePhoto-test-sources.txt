@@ -1,0 +1,7 @@
+Upstream metadata-template reference: https://github.com/Hiwoniu/live-photos
+Resources/Control.HEIC and Control.mov; MIT license in LivePhoto-test-samples.txt.
+The public HEIC/MOV fixtures use generated test imagery and sine-wave audio.
+Only a generic still-image-time marker structure is retained from the reference.
+The pairing identifier is replaced; original image/audio, GPS, capture dates and
+camera motion data are not included. The upstream MIT notice is retained.
+Apple Photos / iPhone re-import has NOT been tested on an Apple device.

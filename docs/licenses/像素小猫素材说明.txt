@@ -1,0 +1,26 @@
+小白素材与生成记录 · MediaForge 3.6
+使用 OpenAI 内置 imagegen 工具生成项目原创黑白像素猫资产，不依赖联网宠物服务。
+assets/xiaobai-logo.png：透明猫脸标志。assets/mediaforge.png/.ico：该标志的确定性图标导出。
+assets/xiaobai-atlas.png：原始生成动作图，含36个主体，实际间距并非严格网格；保留用于确定性再处理。
+assets/xiaobai-frames.png：分离每个猫主体后重排的320×320运行时图集（3.8）；每帧32×32，透明留边，统一脚底锚点(16,30)。
+assets/xiaobai-states.json：动作索引、明确帧边界、锚点和原始主体边界。运行时按清单读取，不等分原始图集。
+scripts/prepare_xiaobai_frames.py：保留每个猫主体，排除相邻行混入及边缘截断的零碎装饰；不重绘角色。
+scripts/make_assets.py：猫脸按比例居中到透明方形画布，导出主窗口/任务栏/托盘图标。
+Qt FastTransformation 整数倍显示，缩放保持可见脚底位置；透明区域维持鼠标穿透。
+用户可随软件复制分发这些项目生成素材；第三方引擎和字体许可另列。
+
+Logo prompt:
+Create a transparent-background production app icon for Xiaobai, an adorable monochrome pixel-art kitten. A round white face, tiny triangular ears, bold black staircase pixel outline, simple sparkling black eyes and a tiny w-shaped mouth. Crisp black and opaque white only, centered symmetrical face, immediately recognizable at 16–32 pixels. No lettering, no badge, no shadow, no scenery. Transparent outside the face.
+
+Sprite atlas prompt (reference: the generated logo):
+Produce a transparent production sprite atlas of exactly 6 columns and 6 rows, equal cells and 36 full-body sprites of the SAME white black-outline pixel kitten. Rounded face, very short legs and curled tail, fixed character scale and foot baseline, fully inside each cell with transparent padding. Pure monochrome crisp pixel art. No labels or presentation background. Row-major groups of three: idle open/closed/open eyes with paws DOWN; excited receiving a sheet of paper; working at a tiny laptop; success smile/wink/sparkle; failure droopy ears/question; tail swishing; stretching; happy head-petting response; curled sleeping; waking; gentle breathing; looking left/front/right. Receiving, processing and success poses distinct from neutral idle. Keep consistent identity and proportions with the reference face.
+
+These prompts document the creative direction used for the included generated assets; no image API is used by the distributed software.
+
+3.8动作扩展：使用内置imagegen，以现有小白为参考生成56个新动作主体。
+原始素材assets/xiaobai-actions-38-source.png（1341×1173），7行8列，保留不修改。
+scripts/prepare_companion_38.py按实际连通主体识别边界，统一缩放/黑白透明留边和脚底锚点。
+前36帧保留原像素，新增14组×4帧，运行时共92帧；详细框/锚点/时长见xiaobai-states.json。
+所有新增动作至少4个不同有效帧；无跨帧黑线，32×32边缘透明；开心跳跃保留动作高度变化。
+生成方向：same monochrome pixel kitten, round face, short legs, fixed proportions; washing face, licking paw, scratching ear, sniffing, ear twitch, yawning, lying down, hugging tail, rubbing, snack, hop, shy, pounce, catch; four consecutive animation poses each, transparent padding, no text.
+逐帧资源报告：文档/3.8_动作素材检查.json；参考原有图像生成流程，不接入成品网络API。

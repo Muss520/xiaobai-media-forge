@@ -1,0 +1,11 @@
+MediaForge interaction sounds
+Original synthesized mono PCM WAV tones generated locally for this application.
+Copyright MediaForge contributors, 2026. Covered by the project LICENSE.txt.
+No third-party audio samples, online service or API.
+
+3.8: 12 additional original program-synthesized cues, 16 WAV files in total.
+Generator: scripts/make_companion_sounds.py, mono 22050 Hz / signed 16-bit PCM.
+Sine chirps, harmonics, controlled noise, short attack/release envelopes; cartoon meow and purr are synthesized, not animal recordings.
+Cues: pet_touch, rub, snack, meow, purr, joy, wand, throw, bounce, catch, miss, game_finish.
+All amplitudes validated below 16-bit clipping; no downloaded audio samples.
+Resource inventory: assets/sounds/companion-sounds.json; waveform hashes and durations in 3.8_音效波形校验.json.

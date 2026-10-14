@@ -1,0 +1,33 @@
+# Generated environments, engines and build output
+.venv/
+runtime/
+downloads/
+build/
+成品/
+tools/*
+!tools/ffmpeg-manifest.json
+!tools/exiftool-manifest.json
+*.spec
+*.zip
+*.sha256
+
+# Personal settings, logs, temporary files and converted media
+data/
+logs/
+temp/
+output/
+运行数据/
+tests/artifacts/输出/
+
+# Python/editor caches and local verification reports
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+.idea/
+.vscode/
+docs/*.json
+docs/成品*.png
+docs/成品*.txt
+docs/移动*.png
